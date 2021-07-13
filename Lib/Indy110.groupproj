@@ -5,9 +5,9 @@
   <ItemGroup />
   <ItemGroup>
     <Projects Include="Computil.dproj" />
-    <Projects Include="Core\IndyCore110.dproj" />
-    <Projects Include="Protocols\IndyProtocols110.dproj" />
-    <Projects Include="System\IndySystem110.dproj" />
+    <Projects Include=".\Core\IndyCore110.dproj" />
+    <Projects Include=".\Protocols\IndyProtocols110.dproj" />
+    <Projects Include=".\System\IndySystem110.dproj" />
   </ItemGroup>
   <ProjectExtensions>
     <Borland.Personality>Default.Personality</Borland.Personality>
@@ -16,31 +16,31 @@
 <BorlandProject xmlns=""><Default.Personality></Default.Personality></BorlandProject></BorlandProject>
   </ProjectExtensions>
   <Target Name="IndySystem110">
-    <MSBuild Projects="System\IndySystem110.dproj" Targets="" />
+    <MSBuild Projects=".\System\IndySystem110.dproj" Targets="" />
   </Target>
   <Target Name="IndySystem110:Clean">
-    <MSBuild Projects="System\IndySystem110.dproj" Targets="Clean" />
+    <MSBuild Projects=".\System\IndySystem110.dproj" Targets="Clean" />
   </Target>
   <Target Name="IndySystem110:Make">
-    <MSBuild Projects="System\IndySystem110.dproj" Targets="Make" />
+    <MSBuild Projects=".\System\IndySystem110.dproj" Targets="Make" />
   </Target>
   <Target Name="IndyCore110">
-    <MSBuild Projects="Core\IndyCore110.dproj" Targets="" />
+    <MSBuild Projects=".\Core\IndyCore110.dproj" Targets="" />
   </Target>
   <Target Name="IndyCore110:Clean">
-    <MSBuild Projects="Core\IndyCore110.dproj" Targets="Clean" />
+    <MSBuild Projects=".\Core\IndyCore110.dproj" Targets="Clean" />
   </Target>
   <Target Name="IndyCore110:Make">
-    <MSBuild Projects="Core\IndyCore110.dproj" Targets="Make" />
+    <MSBuild Projects=".\Core\IndyCore110.dproj" Targets="Make" />
   </Target>
   <Target Name="IndyProtocols110">
-    <MSBuild Projects="Protocols\IndyProtocols110.dproj" Targets="" />
+    <MSBuild Projects=".\Protocols\IndyProtocols110.dproj" Targets="" />
   </Target>
   <Target Name="IndyProtocols110:Clean">
-    <MSBuild Projects="Protocols\IndyProtocols110.dproj" Targets="Clean" />
+    <MSBuild Projects=".\Protocols\IndyProtocols110.dproj" Targets="Clean" />
   </Target>
   <Target Name="IndyProtocols110:Make">
-    <MSBuild Projects="Protocols\IndyProtocols110.dproj" Targets="Make" />
+    <MSBuild Projects=".\Protocols\IndyProtocols110.dproj" Targets="Make" />
   </Target>
   <Target Name="Computil">
     <MSBuild Projects="Computil.dproj" Targets="" />

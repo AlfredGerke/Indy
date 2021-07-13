@@ -19,8 +19,8 @@ call clean.bat
 echo on
 rem this generates setenv.bat, containing  the environment variables used for compiling
 rem e.g.:
-rem SET NDD11=\path\to\delphi2007
-rem SET NDWINSYS=\path\to\system32
+SET NDD11=C:\Program Files (x86)\CodeGear\RAD Studio\5.0
+SET NDWINSYS=C:\Windows\System32
 computil SetupD11
 if exist setenv.bat call setenv.bat
 
