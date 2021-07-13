@@ -40,9 +40,7 @@ MessageView=MessageView@EditWindow0
 BorlandEditorCodeExplorer=BorlandEditorCodeExplorer@EditWindow0
 TopPanelSize=0
 LeftPanelSize=0
-RightPanelSize=2339
-RightPanelClients=DockSite2
-RightPanelData=00000800010000000000000000000000000000000000000000000001000000000000000009000000446F636B5369746532FFFFFFFF
+RightPanelSize=0
 BottomPanelSize=1806
 BottomPanelClients=MessageView@EditWindow0,DockSite1
 BottomPanelData=000008000102000000007245000000000000020E070000000000000100000000B92200000B0000004D6573736167655669657701000000007245000009000000446F636B5369746531FFFFFFFF
@@ -50,6 +48,7 @@ BottomMiddlePanelSize=0
 BottomMiddlePanelClients=DockSite0
 BottomMiddelPanelData=0000080001000100000009000000446F636B53697465303619000000000000007D1B000000000000FFFFFFFF
 TabDockLeftClients=DockSite3=0
+TabDockRightClients=DockSite2=0
 
 [View0]
 CustomEditViewType=TWelcomePageView
@@ -113,12 +112,12 @@ Docked=1
 State=0
 Left=0
 Top=0
-Width=2339
-Height=6904
+Width=2255
+Height=8481
 MaxLeft=-1
 MaxTop=-1
-ClientWidth=2339
-ClientHeight=6904
+ClientWidth=2255
+ClientHeight=8481
 TBDockHeight=9048
 LRDockWidth=2000
 Dockable=1
@@ -589,7 +588,7 @@ Dockable=1
 StayOnTop=0
 TabPosition=1
 ActiveTabID=FindReferencsForm
-TabDockClients=RefactoringForm,FindReferencsForm,RefactoringsView,UsagesView,QAView,MetricsView
+TabDockClients=RefactoringForm,FindReferencsForm,QAView,MetricsView,RefactoringsView,UsagesView
 
 [DockSite1]
 HostDockSite=DockBottomPanel
@@ -616,21 +615,21 @@ ActiveTabID=BreakpointWindow
 TabDockClients=DebugLogView,BreakpointWindow,ThreadStatusWindow,CallStackWindow,WatchWindow,LocalVarsWindow
 
 [DockSite2]
-HostDockSite=DockRightPanel
+HostDockSite=RightTabDock
 DockSiteType=1
 PercentageSizes=1
 Create=1
-Visible=1
+Visible=0
 Docked=1
 State=0
 Left=0
-Top=23
+Top=0
 Width=2339
-Height=7144
+Height=9048
 MaxLeft=-1
 MaxTop=-1
-ClientWidth=2339
-ClientHeight=7144
+ClientWidth=2255
+ClientHeight=8721
 TBDockHeight=9048
 LRDockWidth=2339
 Dockable=1

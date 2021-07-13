@@ -605,7 +605,7 @@ Dockable=1
 StayOnTop=0
 TabPosition=1
 ActiveTabID=FindReferencsForm
-TabDockClients=RefactoringForm,FindReferencsForm,QAView,MetricsView,RefactoringsView,UsagesView
+TabDockClients=RefactoringForm,FindReferencsForm,RefactoringsView,UsagesView,QAView,MetricsView
 
 [DockSite1]
 HostDockSite=DockBottomPanel
