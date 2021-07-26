@@ -23,7 +23,7 @@ package IndySystem110;
 {$MINENUMSIZE 1}
 {$IMAGEBASE $400000}
 {$DESCRIPTION 'Indy 10 System'}
-{$LIBSUFFIX 'D2007'}
+{$LIBSUFFIX '_D2007'}
 {$LIBVERSION '10.6.2.0'}
 {$RUNONLY}
 {$IMPLICITBUILD ON}
@@ -32,22 +32,22 @@ requires
   rtl;
 
 contains
-  IdAntiFreezeBase in 'IdAntiFreezeBase.pas',
-  IdBaseComponent in 'IdBaseComponent.pas',
-  IdCTypes in 'IdCTypes.pas',
-  IdComponent in 'IdComponent.pas',
-  IdException in 'IdException.pas',
-  IdGlobal in 'IdGlobal.pas',
-  IdIDN in 'IdIDN.pas',
-  IdResourceStrings in 'IdResourceStrings.pas',
-  IdStack in 'IdStack.pas',
-  IdStackBSDBase in 'IdStackBSDBase.pas',
-  IdStackConsts in 'IdStackConsts.pas',
-  IdStackWindows in 'IdStackWindows.pas',
-  IdStream in 'IdStream.pas',
-  IdStreamVCL in 'IdStreamVCL.pas',
-  IdStruct in 'IdStruct.pas',
-  IdWinsock2 in 'IdWinsock2.pas',
-  IdWship6 in 'IdWship6.pas';
+  IdAntiFreezeBase,
+  IdBaseComponent,
+  IdCTypes,
+  IdComponent,
+  IdException,
+  IdGlobal,
+  IdIDN,
+  IdResourceStrings,
+  IdStack,
+  IdStackBSDBase,
+  IdStackConsts,
+  IdStackWindows,
+  IdStream,
+  IdStreamVCL,
+  IdStruct,
+  IdWinsock2,
+  IdWship6;
 
 end.

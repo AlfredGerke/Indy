@@ -1,30 +1,32 @@
 [Closed Files]
-File_0=TSourceModule,'C:\Users\Alfred\sourcen\ues\subversion\vpn\faktura_x\trunk\frm\uKassieren.pas',0,1,1223,56,1232,0,0,{{2343,0}
-File_1=TSourceModule,'C:\Users\Alfred\sourcen\ues\subversion\vpn\faktura_x\trunk\redesign\api\epap\controller\api.epap.controller.pas',0,1,339,1,358,0,0,,
-File_2=TSourceModule,'C:\Users\Alfred\sourcen\ues\subversion\vpn\faktura_x\trunk\frm\uInterface.pas',0,1,1335,1,1406,0,0,{{959,0}
-File_3=TSourceModule,'C:\Users\Alfred\sourcen\ues\subversion\vpn\faktura_x\trunk\redesign\swissbit\tse\controller\swissbit.tse.controller.pas',0,1,1967,1,1986,0,0,,
-File_4=TSourceModule,'C:\Users\Alfred\sourcen\ues\subversion\vpn\faktura_x\trunk\redesign\fakturax\swissbit\tse\controller\fakturax.swissbit.tse.controller.pas',0,1,1990,1,2017,0,0,,
-File_5=TSourceModule,'C:\Users\Alfred\sourcen\ues\subversion\vpn\faktura_x\trunk\redesign\swissbit\tse\controller\swissbit.tse.controller.types.worm_access.pas',0,1,1459,1,1478,0,0,,
-File_6=TSourceModule,'C:\Users\Alfred\sourcen\ues\subversion\vpn\faktura_x\trunk\redesign\swissbit\tse\controller\swissbit.tse.controller.types.worm_access.consts.resourcestrings.pas',0,1,24,1,38,0,0,,
-File_7=TSourceModule,'C:\Users\Alfred\sourcen\ues\subversion\vpn\faktura_x\trunk\redesign\fakturax\swissbit\tse\controller\fakturax.swissbit.tse.controller.consts.resourcestrings.pas',0,1,28,52,42,0,0,,
-File_8=TSourceModule,'C:\Users\Alfred\sourcen\ues\subversion\vpn\faktura_x\trunk\units\Actionen.pas',0,1,1,39,11,0,0,{{48,0}
-File_9=TSourceModule,'C:\Users\Alfred\sourcen\ues\subversion\vpn\faktura_x\trunk\redesign\api\epap\common\types\api.epap.common.types.pas',0,1,301,23,313,0,0,,
+File_0=TSourceModule,'c:\program files (x86)\codegear\rad studio\5.0\source\Win32\rtl\win\Windows.pas',0,1,29873,1,29892,0,0,,
+File_1=TSourceModule,'C:\Users\Alfred\sourcen\ues\subversion\vpn\faktura_x\trunk\frm\uKassieren.pas',0,1,1223,56,1232,0,0,{{2343,0}
+File_2=TSourceModule,'C:\Users\Alfred\sourcen\ues\subversion\vpn\faktura_x\trunk\redesign\api\epap\controller\api.epap.controller.pas',0,1,339,1,358,0,0,,
+File_3=TSourceModule,'C:\Users\Alfred\sourcen\ues\subversion\vpn\faktura_x\trunk\frm\uInterface.pas',0,1,1335,1,1406,0,0,{{959,0}
+File_4=TSourceModule,'C:\Users\Alfred\sourcen\ues\subversion\vpn\faktura_x\trunk\redesign\swissbit\tse\controller\swissbit.tse.controller.pas',0,1,1967,1,1986,0,0,,
+File_5=TSourceModule,'C:\Users\Alfred\sourcen\ues\subversion\vpn\faktura_x\trunk\redesign\fakturax\swissbit\tse\controller\fakturax.swissbit.tse.controller.pas',0,1,1990,1,2017,0,0,,
+File_6=TSourceModule,'C:\Users\Alfred\sourcen\ues\subversion\vpn\faktura_x\trunk\redesign\swissbit\tse\controller\swissbit.tse.controller.types.worm_access.pas',0,1,1459,1,1478,0,0,,
+File_7=TSourceModule,'C:\Users\Alfred\sourcen\ues\subversion\vpn\faktura_x\trunk\redesign\swissbit\tse\controller\swissbit.tse.controller.types.worm_access.consts.resourcestrings.pas',0,1,24,1,38,0,0,,
+File_8=TSourceModule,'C:\Users\Alfred\sourcen\ues\subversion\vpn\faktura_x\trunk\redesign\fakturax\swissbit\tse\controller\fakturax.swissbit.tse.controller.consts.resourcestrings.pas',0,1,28,52,42,0,0,,
+File_9=TSourceModule,'C:\Users\Alfred\sourcen\ues\subversion\vpn\faktura_x\trunk\units\Actionen.pas',0,1,1,39,11,0,0,{{48,0}
 
 [Modules]
-Module0=C:\Users\Alfred\sourcen\common\github\Indy\Lib\Core\IndyCore110.dproj
+Module0=C:\Users\Alfred\sourcen\common\github\Indy\Lib\Protocols\IdSSLOpenSSLHeaders.pas
 Module1=default.htm
 Count=2
 EditWindowCount=1
 
-[C:\Users\Alfred\sourcen\common\github\Indy\Lib\Core\IndyCore110.dproj]
-ModuleType=TBaseProject
+[C:\Users\Alfred\sourcen\common\github\Indy\Lib\Protocols\IdSSLOpenSSLHeaders.pas]
+ModuleType=TSourceModule
+FormState=0
+FormOnTop=0
 
 [default.htm]
 ModuleType=TURLModule
 
 [EditWindow0]
 ViewCount=2
-CurrentEditView=C:\Users\Alfred\sourcen\common\github\Indy\Lib\Core\IndyCore110.dpk
+CurrentEditView=C:\Users\Alfred\sourcen\common\github\Indy\Lib\Protocols\IdSSLOpenSSLHeaders.pas
 View0=0
 View1=1
 PercentageSizes=1
@@ -47,7 +49,7 @@ TopPanelSize=0
 LeftPanelSize=0
 RightPanelSize=2339
 RightPanelClients=DockSite2
-RightPanelData=00000800010000000000000000000000000000000000000000000001000000000000000009000000446F636B5369746532FFFFFFFF
+RightPanelData=00000800010000000000000000000000000000451B00000000000001000000000000000009000000446F636B5369746532FFFFFFFF
 BottomPanelSize=1806
 BottomPanelClients=MessageView@EditWindow0,DockSite1
 BottomPanelData=000008000102000000007245000000000000020E070000000000000100000000B92200000B0000004D6573736167655669657701000000007245000009000000446F636B5369746531FFFFFFFF
@@ -62,14 +64,14 @@ WelcomePageURL=bds:/default.htm
 
 [View1]
 CustomEditViewType=TEditView
-Module=C:\Users\Alfred\sourcen\common\github\Indy\Lib\Core\IndyCore110.dpk
-CursorX=15
-CursorY=32
-TopLine=1
+Module=C:\Users\Alfred\sourcen\common\github\Indy\Lib\Protocols\IdSSLOpenSSLHeaders.pas
+CursorX=9
+CursorY=22942
+TopLine=22919
 LeftCol=1
 Elisions=
 Bookmarks=
-EditViewName=C:\Users\Alfred\sourcen\common\github\Indy\Lib\Core\IndyCore110.dpk
+EditViewName=C:\Users\Alfred\sourcen\common\github\Indy\Lib\Protocols\IdSSLOpenSSLHeaders.pas
 
 [Watches]
 Count=0
@@ -372,12 +374,12 @@ Docked=1
 State=0
 Left=0
 Top=0
-Width=2255
-Height=8481
+Width=2339
+Height=6923
 MaxLeft=-1
 MaxTop=-1
-ClientWidth=2255
-ClientHeight=8481
+ClientWidth=2339
+ClientHeight=6923
 TBDockHeight=8808
 LRDockWidth=1896
 Dockable=1
@@ -663,14 +665,14 @@ Create=1
 Visible=0
 Docked=1
 State=0
-Left=0
-Top=0
+Left=1
+Top=20
 Width=2339
-Height=9048
+Height=7163
 MaxLeft=-1
 MaxTop=-1
-ClientWidth=2255
-ClientHeight=8721
+ClientWidth=2339
+ClientHeight=7163
 TBDockHeight=9048
 LRDockWidth=2339
 Dockable=1
