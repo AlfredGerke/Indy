@@ -19587,17 +19587,6 @@ const
   //ssleay32.dll like you would expect.
   SSL_DLL_name_alt     = 'libssl32.dll';  {Do not localize}
   SSLCLIB_DLL_name     = 'libeay32.dll';  {Do not localize}
-
-//  SSL_DLL_name         = 'libssl-1_1.dll';  {Do not localize}
-//  //The following is a workaround for an alternative name for
-//  //one of the OpenSSL .DLL's.  If you compile the .DLL's using
-//  //mingw32, the SSL .dll might be named 'libssl32.dll' instead of
-//  //ssleay32.dll like you would expect.
-//  SSL_DLL_name_alt     = 'libssl32.dll';  {Do not localize}
-//  SSLCLIB_DLL_name     = 'libcrypto-1_1.dll';  {Do not localize}
-
-
-
   {$ENDIF}
 {$ENDIF}
 
